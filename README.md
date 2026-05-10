@@ -1,0 +1,24 @@
+# Base Bot Discord usando Discord.js
+Uma simples base de bot, facilitando a criação de comandos (usando handlers) e slash & subcommands.
+- Antes de tudo, lembre-se de ter o Node.js e o NPM instalados em sua máquina.
+
+## Instalação 
+1. Clone o repositório:
+```
+git clone https://github.com/kapucode/base-bot-v1
+```
+
+2. Instale as dependências do projeto:
+```
+npm install
+```
+
+3. Renomeie o arquivo **.env.example** para **.env** e em seguida preencha as informações necessárias no arquivo:
+```
+   BOT_TOKEN=token do bot
+CLIENT_ID=id do bot
+GUILD_ID=id do seu servidor
+```
+
+## Pasta /examples
+Na pasta, há exemplos de como criar cada coisa. Por exemplo, como criar um slash subcommand que funcione de acordo com a estrutura do projeto.
