@@ -15,7 +15,7 @@ npm install
 
 3. Renomeie o arquivo **.env.example** para **.env** e em seguida preencha as informações necessárias no arquivo:
 ```
-   BOT_TOKEN=token do bot
+BOT_TOKEN=token do bot
 CLIENT_ID=id do bot
 GUILD_ID=id do seu servidor
 ```
