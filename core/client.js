@@ -7,7 +7,7 @@ const client = new Client({
 
 // Variables
 client.prefix = `'`
-client.developers = new Set(['1173408263920951356'])
+client.developers = new Set(['userId'])
 client.botMention = (client, ctx) => {
   ctx.reply({
     content: `💫 **|** Olá! Meu prefixo é \`${client.prefix}\``
