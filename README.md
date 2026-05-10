@@ -22,3 +22,7 @@ GUILD_ID=id do seu servidor
 
 ## Pasta /examples
 Na pasta, há exemplos de como criar cada coisa. Por exemplo, como criar um slash subcommand que funcione de acordo com a estrutura do projeto.
+
+## Personalização 
+O arquivo `core/client.js` possui variáveis do objeto de `client` facilmente personalizáveis. Caso queira, você pode alterá-las do jeito que preferir.
+- Não recomendamos mexer nas variáveis que são Collection's `(new Collection())` caso você não souber mexer nisso, pois nelas que os comandos são registrados.
